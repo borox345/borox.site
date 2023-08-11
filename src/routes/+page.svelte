@@ -1,0 +1,18 @@
+<div class="bg-[#4F80FF] w-full h-screen text-white font-heading">
+    <div class="lg:flex lg:grid-cols-2 grid-cols-1 justify-between items-center lg:space-x-20 lg:max-w-7xl md:max-w-4xl max-w-xl lg:mx-auto">
+        <div class="relative lg:w-1/2 top-[225px]">
+            <h1 class="lg:text-8xl text-7xl font-bold max-w-xl ml-4">I make cool stuff!</h1>
+        </div>
+        <div class="relative top-[225px] mt-4 lg:w-[550px] w-full mr-2 lg:h-[410px] h-[250px] bg-white rounded-3xl">
+            <h1 class="text-[#354264] text-6xl font-semibold lg:pt-24 pt-16 ml-16">Leon</h1>
+            <h1 class="text-[#4F80FF] text-3xl font-medium ml-16">borox.tv@gmail.com</h1>
+
+            <div class="ml-16 lg:mt-36 mt-2 flex space-x-2">
+                <a href="https://github.com/borox345"><img src="icons/github.svg" width="32px" height="32px" alt="github" class="hover:scale-110 transition-transform hover:cursor-pointer"/></a>
+                <a href="https://discord.com/users/314424536256872449"><img src="icons/discord.svg" width="32px" height="32px" alt="discord" class="hover:scale-110 transition-transform hover:cursor-pointer"/></a>
+                <a href="https://x.com/borox345"><img src="icons/twitter.svg" width="32px" height="32px" alt="twitter or x wtf" class="hover:scale-110 transition-transform hover:cursor-pointer"/></a>
+                <a href="https://dribbble.com/borox345"><img src="icons/dribbble.svg" width="32px" height="32px" alt="dribbble" class="hover:scale-110 transition-transform hover:cursor-pointer"/></a>
+            </div>
+        </div>
+    </div>
+</div>
