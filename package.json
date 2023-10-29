@@ -24,7 +24,12 @@
   },
   "type": "module",
   "dependencies": {
+    "@fontsource-variable/inconsolata": "^5.0.15",
+    "@fontsource/inconsolata": "^5.0.15",
     "@fontsource/outfit": "^5.0.5",
+    "@fontsource/roboto": "^5.0.8",
+    "flowbite-svelte": "^0.44.18",
+    "svelte-icons": "^2.1.0",
     "svelte-typewriter": "^3.1.6"
   }
 }

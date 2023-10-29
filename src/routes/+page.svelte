@@ -1,18 +1,13 @@
 <script>
-    import Typewriter from 'svelte-typewriter';
 	import { onMount } from 'svelte';
-    
-    var text = ["te"]
-
-
+    import Project from "$lib/components/project.svelte";
+    import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from 'flowbite-svelte'
 </script>
 
 <div class="bg-[#4F80FF] w-full h-screen text-white font-heading">
     <div class="lg:flex lg:grid-cols-2 grid-cols-1 justify-between items-center lg:space-x-20 lg:max-w-7xl md:max-w-4xl max-w-xl lg:mx-auto">
         <div class="relative lg:w-1/2 top-[225px]">
-            <Typewriter>
-                <h1 class="lg:text-8xl text-6xl font-bold max-w-xl ml-4">I make cool things</h1>
-            </Typewriter>
+            <h1 class="lg:text-8xl text-6xl font-bold max-w-xl ml-4">I make cool things</h1>
         </div>
         <div class="lg:relative lg:top-[225px] absolute bottom-2 mt-4 lg:w-[550px] w-full mr-2 lg:h-[410px] h-[250px] bg-white rounded-3xl">
             <h1 class="text-[#354264] text-6xl font-semibold lg:pt-24 pt-16 lg:ml-16 ml-8">Leon</h1>

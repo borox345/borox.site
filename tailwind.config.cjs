@@ -5,13 +5,14 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Outfit", "sans-serif"]
+        heading: ["Outfit", "sans-serif"],
+        roboto: ["Inconsolata", "sans-serif"]
       },
       colors: {
         primary: "#354264",
         second: "#4F80FF",
         grey: "#9BA3B2",
-        darker: "#0E172A"
+        darker: "#333342"
       }
     },
   },
